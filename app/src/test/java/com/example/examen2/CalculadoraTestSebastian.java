@@ -28,8 +28,8 @@ public class CalculadoraTestSebastian {
     @Test
     public void testConvertirADestino() {
 
-        // Prueba de conversión de decimal a binario de un número negativo
-        assertEquals("-1101", Calculadora.convertirADestino(-13, 0));
+        // Prueba de conversión de decimal a decimal
+        assertEquals("100", Calculadora.convertirADestino(100, 2));
 
         // Prueba de conversión de decimal a octal
         assertEquals("14", Calculadora.convertirADestino(12, 1));
