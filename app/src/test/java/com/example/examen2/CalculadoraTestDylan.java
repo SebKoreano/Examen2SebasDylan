@@ -8,7 +8,6 @@ public class CalculadoraTestDylan {
 
     @Test
     public void testConvertirNumero() {
-        // Pruebas para el método convertirNumero()
 
         // Prueba de conversión de binario a decimal
         assertEquals(5, Calculadora.convertirNumero("101", 0));
@@ -19,7 +18,6 @@ public class CalculadoraTestDylan {
 
     @Test
     public void testRealizarOperacion() {
-        // Pruebas para el método realizarOperacion()
 
         // Prueba de multiplicación
         assertEquals(12, Calculadora.realizarOperacion(3, 4, "*"));
@@ -30,7 +28,6 @@ public class CalculadoraTestDylan {
 
     @Test
     public void testConvertirADestino() {
-        // Pruebas para el método convertirADestino()
 
         // Prueba de conversión de decimal a binario
         assertEquals("101", Calculadora.convertirADestino(5, 0));
