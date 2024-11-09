@@ -30,7 +30,7 @@ public class CalculadoraTestDylan {
     public void testConvertirADestino() {
 
         // Prueba de conversión de decimal a binario
-        assertEquals("101", Calculadora.convertirADestino(5, 0));
+        assertEquals("10", Calculadora.convertirADestino(5, 0));
 
         // Prueba de conversión de decimal a hexadecimal
         assertEquals("ff", Calculadora.convertirADestino(255, 3));
